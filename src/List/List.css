@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.list {
+  margin-top: 32px;
+}
+
+.list-item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+}
+
+.list-item__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 32px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+.list-item__delete {
+  background-image: url(./delete.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.list-item__delete:hover {
+  opacity: 0.7;
+}
+
