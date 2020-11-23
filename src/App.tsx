@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header/Header';
-import Input from './input/Input';
-import List from './List/List';
+import Header from './components/Header/Header';
+import Input from './components/input/Input';
+import List from './components/List/List';
 import './App.css';
 
 function App() {
